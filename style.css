@@ -4,7 +4,8 @@ body, html {
         height: 100%;
     }
     .cmpny{
-        display: inline-block;
+        display:flex;
+        
     }
 
     .video-bg {
@@ -15,12 +16,6 @@ body, html {
         min-height: 100%;
         z-index: -1;
     }
-    /*.content {
-        color: white;
-        text-align: center;
-     margin-top: 40vh;
-        font-size: 3rem;
-        font-family: Arial, sans-serif;*/
     
     nav{
     
@@ -28,10 +23,12 @@ body, html {
         margin-top: 0px; 
         padding: 5px;
         
+        
            }
-    li,ul{
+      .navbar li,ul{
         display: inline;
         cursor: pointer;
+        text-decoration: none;
         
     }
     a:hover{
@@ -77,45 +74,39 @@ body, html {
 
 .menu li {
     cursor: pointer;
-    margin-right: 30px;
+    margin-left: 0;
+    text-decoration: none;
+    justify-content: space-evenly;
+    gap: 10px;
+    /*padding-right: 10px; */
+    margin-right: 5px;
     
 }
 
-.icons span {
+/*.icons span {
     margin-left: 15px;
     cursor: pointer;
-}
-
-/* Banner 
-.banner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: #e53935;
-    color: white;
-    padding: 40px;
-}
-
-.banner-left img {
-    width: 250px;
-}
-
-.banner-right h1 {
-    font-size: 48px;
-    margin: 0;
-}
-
-.banner-right h2 {
-    font-size: 36px;
-    margin: 10px 0;
-}
-
-.price {
-    background: white;
-    color: #e53935;
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 24px;
-    font-weight: bold;
-    border-radius: 5px;
 }*/
+
+.navbar a{
+    text-decoration: none;
+}
+.navbar-links a:hover {
+    color: #e4572e;
+}
+.head{
+position: absolute;
+top: 10px;
+left: 100px;   
+  text-decoration: none;  
+color: purple;            
+  font-size: 30px;        
+  font-weight: bold;
+  gap: 10px;    
+} 
+
+.backround{
+    position: relative;
+    top: 1500px;
+}
+
